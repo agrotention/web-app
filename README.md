@@ -1,39 +1,43 @@
-# .
+# Agrotention Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Agrotention adalah platform dataset dan model AI untuk kebutuhan smart farming di Indonesia. Repository ini berisi kode sumber untuk frontend Agrotention yang dikembangkan menggunakan Vue.js.
 
-## Recommended IDE Setup
+## Fitur
+- Antarmuka yang responsif dan intuitif
+- Integrasi dengan API backend Agrotention
+- Manajemen dataset untuk smart farming
+- Visualisasi data berbasis AI
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Prasyarat
+Sebelum memulai, pastikan Anda memiliki:
+- Bun terinstal di sistem Anda
 
-## Type Support for `.vue` Imports in TS
+## Instalasi
+1. Clone repository ini:
+   ```sh
+   git clone https://github.com/agrotention/web-app.git
+   cd web-app
+   ```
+2. Instal dependensi:
+   ```sh
+   bun install
+   ```
+3. Jalankan proyek dalam mode pengembangan:
+   ```sh
+   bun dev
+   ```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-bun install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-bun dev
-```
-
-### Type-Check, Compile and Minify for Production
-
+## Build
+Untuk membangun proyek, gunakan perintah berikut:
 ```sh
 bun run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Kontribusi
+Kontribusi sangat dihargai! Silakan buat pull request atau buka issue untuk memberikan masukan.
 
-```sh
-bun lint
-```
+## Lisensi
+Proyek ini dilisensikan di bawah lisensi MIT.
+
+---
+Dikembangkan dengan ❤️ oleh tim Agrotention.
